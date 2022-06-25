@@ -1,0 +1,21 @@
+.flex-box .my-flex-container {
+    display: flex;
+    justify-content: space-around; /* отвечает за выравнивание объектов по главной оси */
+    /* Если хотим чтобы блоки выравнились по центру, то: */
+    align-items:center; /* отвечает за выравнивание объектов по поперечной оси */
+    /* justify-content: space-between; выравниваются со спейсом */
+    /* justify-content: center; выравниваются по центру */
+    /* justify-content: space-around; распределилились равномерно по ширине экрана */
+    height: 450px;
+  /*   flex-direction: column;  *//* направление оси  */
+    flex-wrap: wrap;
+/*     Если элементов много, то за их красивое расположение отвечает:
+    flex-wrap: wrap; */
+}
+.my-flex-block {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    text-align: center;
+    color: #fafafa;
+}
